@@ -24,6 +24,4 @@ You'll notice that there are a number of `SessionsController` specs failing beca
 
 Write `new`, `create`, and `destroy` methods to get the specs passing.
 
-Now write your views and connect up your routes.
-
-You'll notice that one requirement has gone unfulfilled: 
+Now write feature tests for your views, write the views, and connect up your routes.
