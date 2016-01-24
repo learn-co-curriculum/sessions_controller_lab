@@ -20,7 +20,9 @@ Our app will have two pages:
 
 You'll notice that there are a number of `SessionsController` specs failing because, principally, no `SessionsController` exists.
 
-Run `rails generate controller Sessions new` to create a SessionsController with a `new` method. Controller method scaffolding is not generally that useful (you too can type `def new`!), but including `new` makes the generator create views, which we will also want.
+Run `rails generate controller Sessions new --no-helper --no-assets --no-controller-specs` to create a SessionsController with a `new` method.
+
+We're skipping creating specs because the lab already has them.
 
 Write `new`, `create`, and `destroy` methods to get the specs passing.
 
