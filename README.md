@@ -6,24 +6,22 @@ We're going to build a Rails app that handles sessions with a `SessionsControlle
 
 ## Introduction
 
-Rails apps use `SessionsController`s to handle sessions. Today, we're going to implement this pattern.
-
 Our app will have two pages:
-  1. a home page. (`get '/'`)
-    * if the user is not logged in, the page gives them a login link.
-    * if the user is logged in, the page says, "hi, #{name}", and provides a logout link.
+  1. a home page or root route.
+    * if the user is not logged in, the page should show them a login link.
+    * if the user is logged in, the page should says, "hi, #{name}", and provide a logout link.
   2. a login page
-    * users can enter their name and hit 'login'. Thereafter, the app will refer to them by that name.
+    * users can enter their name in a form and click 'login'. Thereafter, the app will refer to them by that name.
     * if the user does not enter a name, they are not logged in. Return them to the login page.
 
 ## Instructions
 
-You'll notice that there are a number of `SessionsController` specs failing because, principally, no `SessionsController` exists.
+1. Create the sessions controller.
 
-Run `rails generate controller Sessions new --no-helper --no-assets --no-controller-specs` to create a SessionsController with a `new` method.
+*Note* If you use the generators to generate your controllers be sure to pass these flags to avoid generating unneeded files `rails generate controller Sessions new --no-helper --no-assets --no-controller-specs`.
 
-We're skipping creating specs because the lab already has them.
+2. Write the `new`, `create`, and `destroy` methods.
 
-Write `new`, `create`, and `destroy` methods to get the specs passing.
+3. Write feature tests for your views that ensure the app functions as we described in the overview.
 
-Now write feature tests for your views, write the views, and connect up your routes.
+4. Create the views that make your tests pass!
