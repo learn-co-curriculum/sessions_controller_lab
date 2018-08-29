@@ -1,9 +1,5 @@
 tags:
-  - session
-  - sessions_controller
-  - before_filter
-  - login
+  - undefined
 languages:
-  - Ruby
-resources:
-  - http://guides.rubyonrails.org/action_controller_overview.html#filters
+  - undefined
+resources: 0
