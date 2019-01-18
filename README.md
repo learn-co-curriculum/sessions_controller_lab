@@ -11,13 +11,13 @@ user what to call them, and we'll just use that as their username.
 Our app will have two pages:
 
 1. a home page or root route.
-   _ if the user is not logged in, the page should show them a login link.
-   _ if the user is logged in, the page should say, "hi, #{name}", and provide a
+   * If the user is not logged in, the page should show them a login link.
+   * If the user is logged in, the page should say, "hi, #{name}", and provide a
    logout link.
 2. a login page
-   _ users can enter their name in a form and click 'login'. Thereafter, the app will
+   * Users can enter their name in a form and click 'login'. Thereafter, the app will
    refer to them by that name.
-   _ if the user does not enter a name, they are not logged in. Return them to the
+   * If the user does not enter a name, they are not logged in. Return them to the
    login page.
 
 ## Instructions
