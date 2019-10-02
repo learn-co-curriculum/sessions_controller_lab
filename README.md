@@ -29,9 +29,6 @@ Our app will have two pages:
 
 2. Write the `new`, `create`, and `destroy` methods.
 
-3. Write feature tests for your views that ensure the app functions as we described
-   in the overview.
-
-4. Create the views that make your tests pass!
+3. Ensure that your tests pass!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sessions_controller_lab' title='Sessions Controller Lab'>Sessions Controller Lab</a> on Learn.co and start learning to code for free.</p>
