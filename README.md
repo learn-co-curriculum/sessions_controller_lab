@@ -32,4 +32,4 @@ Our app will have two pages:
 3. Ensure that your tests pass!
 
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sessions_controller_lab' title='Sessions Controller Lab'>Sessions Controller Lab</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/sessions_controller_lab' title='Sessions Controller Lab'>Sessions Controller Lab</a> on Learn.co and start learning to code for free.</p>
